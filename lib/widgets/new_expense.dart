@@ -96,7 +96,7 @@ class _NewExpenseSheetState extends State<NewExpenseSheet> {
             ),
             const SizedBox(height: 12),
             DropdownButtonFormField<ExpenseCategory>(
-              value: _selectedCategory,
+              initialValue: _selectedCategory,
               decoration: const InputDecoration(
                 labelText: 'Category',
                 border: OutlineInputBorder(),
